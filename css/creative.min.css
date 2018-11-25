@@ -10,7 +10,7 @@ body, html {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif
+    font-family: "Courier", "courier", courier, sans-serif;
 }
 
 hr {
@@ -34,7 +34,7 @@ a {
     }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
+    font-family: "Courier", "courier", courier, sans-serif;
 }
 
 .bg-primary {
@@ -87,7 +87,7 @@ img::-moz-selection {
 #mainNav {
     border-bottom: 1px solid rgba(33,37,41,.1);
     background-color: #fff;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: "Courier", "courier", courier, sans-serif;
     -webkit-transition: all .2s;
     transition: all .2s
 }
@@ -96,7 +96,7 @@ img::-moz-selection {
         font-weight: 700;
         text-transform: uppercase;
         color: #222c37;
-        font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
+        font-family: "Courier", "courier", courier, sans-serif;
     }
 
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -253,7 +253,7 @@ header.masthead {
 
             .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
                 padding: 0 15px;
-                font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
+                font-family: "Courier", "courier", courier, sans-serif;
             }
 
             .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -293,7 +293,7 @@ header.masthead {
     text-transform: uppercase;
     border: none;
     border-radius: 300px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif
+    font-family: "Courier", "courier", courier, sans-serif;
 }
 
 .btn-xl {
@@ -314,3 +314,5 @@ header.masthead {
         -webkit-box-shadow: 0 0 0 .2rem rgba(33, 37, 41, 0.5) !important;
         box-shadow: 0 0 0 .2rem rgba(33, 37, 41, 0.5) !important
     }
+
+*/
