@@ -1,0 +1,9 @@
+Title pending 
+An action platformer where you use a sword that can grow and shrink on command
+to maneuver through obstacles.
+Personal project and a work in progress.
+
+Challenges and achievements
+Managing a bigger unity project by myself with a relatively huge codebase.
+Writing custom physics and collision resolution for maneuvering with the weapon 
+and all the math that comes with it.

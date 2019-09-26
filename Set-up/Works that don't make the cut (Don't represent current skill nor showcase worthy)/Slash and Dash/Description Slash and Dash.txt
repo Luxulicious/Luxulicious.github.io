@@ -1,0 +1,4 @@
+Description
+A game where you have slice at eachother. 
+First one to get hit by the trail loses.
+A prototype made for an early game concept.

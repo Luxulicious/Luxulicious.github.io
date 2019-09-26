@@ -1,0 +1,10 @@
+Description
+A game where you have to shoot eachother out of bounds!
+Made during a 24 hour gamejam.
+Programming done by Tom Ruijs (exc. charge mechanic)
+Design by Nick van Grunsven & Tom Ruijs
+
+Challenges and achievements
+The gamejam was done with little in person communication being possible, 
+due to my game jam partner being only present half of the time. 
+Nonetheless it got done with great result.
