@@ -58,17 +58,17 @@
 	- [] Challenges and achievements
 
 #### Works that don't make the cut (Don't represent current skill nor showcase worthy)
-- [] Home Shelter
-	- [] Videos/mp4s/gifs
-	- [] Pictures
+- [] Slash and Dash
+	- [x] Videos/mp4s/gifs
+	- [x] Pictures
 	- [] Description 
 	- [] Challenges and achievements
 	- [] Code Snippets
 	- [] Link to game
 
-- [] Slash and Dash
-	- [x] Videos/mp4s/gifs
-	- [x] Pictures
+- [] Home Shelter
+	- [] Videos/mp4s/gifs
+	- [] Pictures
 	- [] Description 
 	- [] Challenges and achievements
 	- [] Code Snippets
