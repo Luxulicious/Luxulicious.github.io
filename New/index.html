@@ -15,7 +15,7 @@
 	<!-- Plugin CSS -->
 	<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 	<!-- Custom styles for this template -->
-	<link href="css/creative.min.css" rel="stylesheet">
+	<link href="css/creative.css" rel="stylesheet">
 </head>
 <body id="page-top">
 <!-- Navigation -->
@@ -43,25 +43,30 @@
 		</div>
 	</div>
 </nav>
+<section  style="height: 100%">
 <header class="masthead text-center text-white d-flex">
+	<video id="videobcg" class="img-responsive"  
+	       preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" >
+		<source src="img/portfolio/Highlight Reel.mkv" type="video/mp4">
+		<source src="movie.webm" type="video/webm">
+		Sorry, your browser does not support HTML5 video.
+	</video>
 	<div class="container my-auto">
 		<div class="row">
 			<div class="col-lg-10 mx-auto">
 				<h1 class="text-uppercase">
-					<!--<strong>-->
-					Tom Ruijs<br/>
-					Programmer
-					<!--</strong>-->
+					Tom Ruijs
 				</h1>
-				<hr>
+				
 			</div>
 			<div class="col-lg-8 mx-auto">
-				<p class="text-faded mb-5">Gameplay- & Physics Programmer</p>
+				<p class=" mb-5">Game Programmer</p>
 				<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
 			</div>
 		</div>
 	</div>
 </header>
+</section>
 <section class="bg-primary" id="about">
 	<div class="container">
 		<div class="row">
@@ -94,6 +99,7 @@
 </section>
 <section class="p-0" id="portfolio">
 	<!--Portfolio header-->
+	<!--
 	<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
 		<div class="row">
 			<div class="col-lg-12 text-center">
@@ -102,7 +108,8 @@
 			</div>
 		</div>
 	</div>
-	
+	-->
+
 	<!--Personal Work Header-->
 	<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
 		<div class="row">
@@ -122,86 +129,85 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="container-fluid">
 		<div class="row no-gutters popup-gallery">
-		<!--Thumbnail-->
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" 
-		     style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<a class="portfolio-box" data-toggle="modal" data-target="#exampleModal">
-				<!--href="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif"-->
-				<img class="img-fluid" src="img/portfolio/thumbnails/nightmarethumb.png" alt="">
-				<div class="portfolio-box-caption">
-					<div class="portfolio-box-caption-content">
-						<div class="project-category text-faded">
-							Turn Based Strategy
-						</div>
-						<div class="project-name">
-							Nightmare House
-						</div>
-						<br/>
-						<p style="margin-right: 10px; margin-left: 10px;">
-							Turn-based strategy game with a spooky theme.
-						</p>
-					</div>
-				</div>
-			</a>
-		</div>
-		<!-- Modal -->
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div role="document" class="modal-dialog" style="max-width: 75%;">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Monster House</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<div class="row no-gutters"  style="margin-left: 20px; margin-right: 20px;">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<p>
-									A turn-based strategy with a spooky theme.
-								</p>
+			<!--Thumbnail-->
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6"
+			     style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<a class="portfolio-box" data-toggle="modal" data-target="#exampleModal" >
+					<!--href="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif"-->
+					<img class="img-fluid" src="img/portfolio/thumbnails/nightmarethumb.png" alt=""/>
+					<div class="portfolio-box-caption">
+						<div class="portfolio-box-caption-content">
+							<div class="project-category text-faded">
+								Turn Based Strategy
 							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
-								<a href="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif">
-									<img src="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif" class="img-fluid"/>
-								</a>
+							<div class="project-name">
+								Nightmare House
 							</div>
+							<br/>
+							<p style="margin-right: 10px; margin-left: 10px;">
+								Turn-based strategy game with a spooky theme.
+							</p>
 						</div>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</a>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div role="document" class="modal-dialog" style="max-width: 75%;">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Monster House</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="row no-gutters" style="margin-left: 20px; margin-right: 20px;">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<p>
+										A turn-based strategy with a spooky theme.
+									</p>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+									<a href="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif">
+										<img src="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif" class="img-fluid"/>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/nightmarethumb.png" alt="">
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
-		</div>
-		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
-			<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/nightmarethumb.png" alt="">
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+				<img class="img-fluid" src="img/portfolio/thumbnails/bigweapcombatthumb.png" alt="">
+			</div>
 		</div>
 	</div>
-</div>
-
 </section>
 <section id="skills">
 	<div class="container">
