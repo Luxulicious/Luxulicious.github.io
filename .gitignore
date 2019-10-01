@@ -1,4 +1,5 @@
+VSWorkspaceState.json
+*.sqlite
+*.suo
 
-.vs/VSWorkspaceState.json
-.vs/slnx.sqlite
-.vs/LuxuliciousDOTgithubDOTio/v15/.suo
+
