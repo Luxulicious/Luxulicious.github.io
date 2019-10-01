@@ -187,7 +187,7 @@ header.masthead p { font-weight: 300; }
 	display: block;
 	max-width: 650px;
 	margin: 0 auto;
-	cursor: zoom-in;
+	cursor: pointer;
 }
 
 .portfolio-box .portfolio-box-caption {
