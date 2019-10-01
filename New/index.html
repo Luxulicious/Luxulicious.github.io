@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,7 +19,10 @@
 	<link href="css/creative.css" rel="stylesheet">
 	<!-- Custom badges -->
 	<link href="css/badges.css" rel="stylesheet">
+	<!-- Custom portfolio-box -->
+	<link href="css/portfolio-box.css" rel="stylesheet">
 </head>
+
 <body id="page-top">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -45,6 +49,7 @@
 		</div>
 	</div>
 </nav>
+<!-- Home section-->
 <section style="height: 100%">
 	<header class="masthead text-center text-white d-flex">
 		<video id="videobcg" class="img-responsive"
@@ -59,7 +64,6 @@
 					<h1 class="text-uppercase">
 						Tom Ruijs
 					</h1>
-
 				</div>
 				<div class="col-lg-8 mx-auto">
 					<p class="mb-5">Game Programmer</p>
@@ -72,6 +76,7 @@
 		</div>
 	</header>
 </section>
+<!--About section-->
 <section class="bg-primary" id="about">
 	<div class="container">
 		<div class="row">
@@ -80,6 +85,10 @@
 				<div class="col-lg-8 mx-auto text right" style="height=100%; width=100%;">
 					<img src="img\selfienotfound.png" align="right" style="max-width: 150px; max-height=150px;"/>
 				</div>
+				<p class="text-faded mb-4">
+					Rewriting this...
+				</p>
+				<!--
 				<p class="text-faded mb-4">
 					Debug.Log("Hello World!");<br/>
 					Name = "Tom Ruijs";<br/>
@@ -95,25 +104,15 @@
 					<br/>
 					"
 				</p>
+				-->
 				<a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio" style="margin-top: 10px; margin-right: 10px;">Portfolio</a>
 				<a class="btn btn-light btn-xl js-scroll-trigger" href="#skills" style="margin-top: 10px; margin-right: 10px;">Skills</a>
 			</div>
 		</div>
 	</div>
 </section>
+<!--Portfolio section-->
 <section class="p-0" id="portfolio">
-	<!--Portfolio header-->
-	<!--
-	<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<h2 class="section-heading">Portfolio</h2>
-				<hr class="my-4">
-			</div>
-		</div>
-	</div>
-	-->
-
 	<!--Personal Work Header-->
 	<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
 		<div class="row">
@@ -123,7 +122,6 @@
 			</div>
 		</div>
 	</div>
-
 	<!--Professional and school projects header -->
 	<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
 		<div class="row">
@@ -134,38 +132,40 @@
 		</div>
 	</div>
 
+	<!--Container for professional and school projects-->
 	<div class="container-fluid">
-		<div class="row no-gutters popup-gallery">
+		<div class="row no-gutters">
 			<!--Thumbnail-->
-			<div class="col-lg-3 col-md-4 col-sm-6" style="padding-bottom: 25px; padding-right: 12.5px; padding-left: 12.5px;">
+			<div class="col-lg-3 col-md-4 col-sm-6" style="padding: 10px;">
 				<a class="portfolio-box" data-toggle="modal" data-target="#modal0">
-					<!--href="https://i.gyazo.com/0de0489768d451a84a66f12ee05a1d50.gif"-->
-					<img class="img-thumbnail" src="img/portfolio/thumbnails/nightmarethumb.png" alt="" />
+					<img class="img-thumbnail portfolio-box-horizontal-margins" src="img/square_test.png" alt=""/>
 					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content" >
+						<div class="portfolio-box-caption-content">
 							<div class="project-category text-faded">
-								Turn Based Strategy
+								Project Genre
 							</div>
 							<div class="project-name">
-								Nightmare House
+								Project name
 							</div>
 							<br/>
-							<p style="margin-right: 10px; margin-left: 10px;">
-								Turn-based strategy game with a spooky theme.
+							<p class="project-description">
+								Project description
 							</p>
 						</div>
 					</div>
 				</a>
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-cplusplus">C++</span>
-				<span class="badge badge-java">Java</span>
-				<span class="badge badge-ue">Unreal Engine</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-context">University</span>
-				<span class="badge badge-context">Game Jam</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-context">In case of non-games: What context then..?</span>
-				<span class="badge badge-old">Old</span>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-cplusplus">C++</span>
+					<span class="badge badge-java">Java</span>
+					<span class="badge badge-ue">Unreal Engine</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">University</span>
+					<span class="badge badge-context">Game Jam</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-context">In case of non-games: What context then..?</span>
+					<span class="badge badge-old">Old</span>
+				</div>
 			</div>
 			<!-- Modal -->
 			<div class="modal fade" id="modal0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

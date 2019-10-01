@@ -1,0 +1,10 @@
+.portfolio-box-horizontal-margins {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
+	margin-left: 10%;
+	margin-right: 10%;
+}

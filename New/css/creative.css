@@ -194,7 +194,7 @@ header.masthead p { font-weight: 300; }
 	position: absolute;
 	bottom: 0;
 	display: block;
-	width: 100%;
+	width: 80%;
 	height: 100%;
 	text-align: center;
 	opacity: 0;
@@ -202,6 +202,7 @@ header.masthead p { font-weight: 300; }
 	background: rgba(34, 44, 55, 0.9);
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
+	transform: translateX(12.5%);
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
