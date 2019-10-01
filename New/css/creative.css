@@ -264,11 +264,11 @@ header.masthead p { font-weight: 300; }
 	box-shadow: 0 0 0 0.2rem rgba(34, 44, 55, 0.5) !important;
 }
 
-#videobcg { 
+#videobcg {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 	min-width: 100%;
 	min-height: 100%;
 	width: auto;
