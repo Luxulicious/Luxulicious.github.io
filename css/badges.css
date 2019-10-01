@@ -20,7 +20,7 @@
 
 .badge-unity {
 	color: #fff;
-	background-color: #007213;
+	background-color: #00ae1d;
 }
 
 .badge-context {
@@ -28,7 +28,12 @@
 	background-color: #00507b;
 }
 
-.badge-old {
+.badge-date {
 	color: #fff;
-	background-color: #c4c4c4;
+	background-color: #b0b0b0;
+}
+
+.badge-kind {
+	color: #fff;
+	background-color: #910096;
 }
