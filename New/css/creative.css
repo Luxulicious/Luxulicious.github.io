@@ -11,7 +11,7 @@ html {
 }
 
 body {
-	font-family: "Courier", "courier", courier, sans-serif; /*'Merriweather', 'Helvetica Neue', Arial, sans-serif;*/
+	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;/* "Courier", "courier", courier, sans-serif; */
 }
 
 hr {
@@ -278,3 +278,5 @@ header.masthead p { font-weight: 300; }
 	filter: blur(1px);
 	object-fit: cover;
 }
+
+.badge { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
