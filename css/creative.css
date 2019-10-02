@@ -295,3 +295,8 @@ header.masthead p { font-weight: 300; }
 	max-height: calc(100% - 120px);
 	overflow-y: scroll;
 }
+
+.portfolio-carousel-item-image-wide {
+	height: 380px;
+	width: 100%;
+}
