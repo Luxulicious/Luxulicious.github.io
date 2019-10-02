@@ -281,3 +281,17 @@ header.masthead p { font-weight: 300; }
 }
 
 .badge { font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+
+
+.modal-dialog,
+.modal-content {
+	/* 80% of window height */
+	height: 85%;
+	max-height: 90%;
+}
+
+.modal-body {
+	/* 100% = dialog height, 120px = header + footer */
+	max-height: calc(100% - 120px);
+	overflow-y: scroll;
+}
