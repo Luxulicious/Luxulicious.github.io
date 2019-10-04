@@ -298,5 +298,6 @@ header.masthead p { font-weight: 300; }
 
 .portfolio-carousel-item-image-wide {
 	height: 380px;
-	width: 100%;
+	max-width: 100%;
+	min-width: 300px;
 }
