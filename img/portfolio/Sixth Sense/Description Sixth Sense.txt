@@ -1,0 +1,6 @@
+Description
+A horror game where you use a haptic feedback from a chair to maneuver through a labyrinth.
+The chair serving as your compass to the exit and telling you where the monster hides.
+
+Challenges & Achievements
+Connecting the C++ based API from the haptic feedback chair to Unity.
