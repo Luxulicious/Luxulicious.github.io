@@ -1,0 +1,3 @@
+Description
+A turn-based stragety with a spooky theme.
+A game made early in my college years.
