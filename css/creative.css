@@ -299,5 +299,11 @@ header.masthead p { font-weight: 300; }
 .portfolio-carousel-item-image-wide {
 	height: 380px;
 	max-width: 100%;
-	min-width: 300px;
+	margin: auto; 
+	align-self: center;
+	/*min-width: 300px;*/
+}
+
+.portfolio-carousel-item-bg {
+	background-color: rgb(217, 217, 217);
 }
