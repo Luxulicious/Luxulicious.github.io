@@ -207,21 +207,21 @@ header.masthead p { font-weight: 300; }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
 	position: absolute;
-	top: 50%;
+	top: 10%;
 	width: 100%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+	max-height: 50%;
 	text-align: center;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-description {
 	padding: 0 15px;
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-	font-size: 14px;
+	max-font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
