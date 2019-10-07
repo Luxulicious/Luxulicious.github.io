@@ -1,9 +1,0 @@
-Description
-A game where you have to catch wandering monsters over various mobile phone screens.
-Made with co-students Malyx (Design/graphics) & Yorrin (UI/graphic behavioural programming)
-
-Challenges and achievements
-Setting up a strong foundation in an earlier prototype that could 
-be build upon with network functionality.
-Creating a smooth online experience, first experimenting with a Node.JS server.
-Resolving time-consuming issues for designers by adding in inspector functionality.
