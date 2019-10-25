@@ -52,8 +52,7 @@
 
 <!-- Home section-->
 <section style="height: 100%">
-	<header class="masthead text-center text-white d-flex">
-		<div style="min-height: 1170.4px;">
+	<header class="text-center text-white d-flex">
 			<div style=
 			    "
 	            position: absolute; 
@@ -79,38 +78,31 @@
 				                                    transform: translate(-50%, -50%); 
 				                                    visibility: visible; 
 				                                    opacity: 1; 
-				                                    width: auto; 
-				                                    height: 1172px;">
+				                                    min-width: 100%; 
+				                                    min-height: 100%;">
 					<source src="src/portfolio/Highlight Reel.mkv" type="video/mp4">
-					<source src="movie.webm" type="video/webm">
 				</video>
 			</div>
-			<div class="container my-auto">
-				<div class="row">
-					<div class="col-lg-10 mx-auto">
-						<h1 class="text-uppercase">
-							Tom Ruijs
-						</h1>
-					</div>
-					<div class="col-lg-8 mx-auto">
-						<p class="mb-5">Game Programmer</p>
-						<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#about">About me</a>
-						<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#skills">Skills</a>
-						<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#portfolio">Portfolio</a>
-						<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#contact">Contact</a>
-					</div>
+		<div class="container my-auto" style="min-height: 100%; align-items: center;" >
+			<div class="row" style="margin: 0; position: absolute;
+									top: 50%;
+									left: 50%;
+									margin-right: -50%;
+									transform: translate(-50%, -50%)">
+				<div class="col-lg-10 mx-auto">
+					<h1 class="text-uppercase">
+						Tom Ruijs
+					</h1>
+				</div>
+				<div class="col-lg-8 mx-auto">
+					<p class="mb-5">Game Programmer</p>
+					<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#about">About me</a>
+					<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#skills">Skills</a>
+					<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#portfolio">Portfolio</a>
+					<a class="btn btn-primary btn-xl js-scroll-trigger" style="margin: 5px;" href="#contact">Contact</a>
 				</div>
 			</div>
 		</div>
-		<!--
-		<video id="videobcg" class="img-responsive"
-		       preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-			<source src="src/portfolio/Highlight Reel.mkv" type="video/mp4">
-			<source src="movie.webm" type="video/webm">
-			Sorry, your browser does not support HTML5 video.
-		</video>
-		-->
-		
 	</header>
 </section>
 
@@ -236,13 +228,14 @@
 						</p>
 					</div>
 				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-date">Ongoing</span>
+				</div>
 			</a>
-			<div class="portfolio-tags portfolio-box-horizontal-margins">
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-date">Ongoing</span>
-			</div>
+			
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-bigweapcombat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -360,14 +353,14 @@
 						</p>
 					</div>
 				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-context">Game Jam</span>
+					<span class="badge badge-date">February 2019</span>
+				</div>
 			</a>
-			<div class="portfolio-tags portfolio-box-horizontal-margins">
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-context">Game Jam</span>
-				<span class="badge badge-date">February 2019</span>
-			</div>
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-recordplay" tabindex="-1" role="dialog" aria-labelledby="recordplay-ModalLabel" aria-hidden="true">
@@ -468,14 +461,14 @@
 						</p>
 					</div>
 				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-context">Game Jam</span>
+					<span class="badge badge-date">March 2019</span>
+				</div>
 			</a>
-			<div class="portfolio-tags portfolio-box-horizontal-margins">
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-context">Game Jam</span>
-				<span class="badge badge-date">March 2019</span>
-			</div>
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-towershootout" tabindex="-1" role="dialog" aria-labelledby="towershootout-ModalLabel" aria-hidden="true">
@@ -592,14 +585,14 @@
 						</p>
 					</div>
 				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-context">Mobile Game</span>
+					<span class="badge badge-date">Jan 2019</span>
+				</div>
 			</a>
-			<div class="portfolio-tags portfolio-box-horizontal-margins">
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-context">Mobile Game</span>
-				<span class="badge badge-date">Jan 2019</span>
-			</div>
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-monstercatcher" tabindex="-1" role="dialog" aria-labelledby="monstercatcher-ModalLabel" aria-hidden="true">
@@ -724,14 +717,14 @@
 						</p>
 					</div>
 				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-cplusplus">C++</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-date">2017</span>
+				</div>
 			</a>
-			<div class="portfolio-tags portfolio-box-horizontal-margins">
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-cplusplus">C++</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-date">2017</span>
-			</div>
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-sixthsense" tabindex="-1" role="dialog" aria-labelledby="sixthsense-ModalLabel" aria-hidden="true">
@@ -820,13 +813,13 @@
 						</p>
 					</div>
 				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-date">2016</span>
+				</div>
 			</a>
-			<div class="portfolio-tags portfolio-box-horizontal-margins">
-				<span class="badge badge-csharp">C#</span>
-				<span class="badge badge-unity">Unity3D</span>
-				<span class="badge badge-context">Game Dev</span>
-				<span class="badge badge-date">2016</span>
-			</div>
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-nightmarehouse" tabindex="-1" role="dialog" aria-labelledby="nightmarehouse-ModalLabel" aria-hidden="true">
