@@ -184,7 +184,7 @@
 					<img src="src/weblogo.png" height="100px;" class="sr-icon-2" style="margin-bottom: 20px;"></img>
 					<h3 class="mb-3" style="align-content: center">No Stranger To Webtechnology</h3>
 					<p class="text-muted mb-0">
-						HTML, CSS, Javascript, ASP.NET, Typescript, SQL, NodeJS etc... <br/>
+						HTML, CSS, Javascript, ASP.NET, Typescript, SQL, NodeJS, Angular etc... <br/>
 						You name it!
 					</p>
 				</div>
@@ -235,7 +235,6 @@
 					<span class="badge badge-date">Ongoing</span>
 				</div>
 			</a>
-			
 		</div>
 		<!-- Modal -->
 		<div class="modal fade" id="modal-bigweapcombat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -476,7 +475,7 @@
 				<div class="modal-content">
 					<!--Modal Title-->
 					<div class="modal-header">
-						<h4 class="modal-title" id="towershootout-ModalLabel">Record Play</h4>
+						<h4 class="modal-title" id="towershootout-ModalLabel">Tower Shoot-out</h4>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 						</button>
@@ -529,9 +528,9 @@
 							</div>
 							<div class="col-lg-6 col-md-12 col-sm-12">
 								<!--Image Slider-->
-								<div id="carousel-TowerShoutOut" class="carousel slide" data-ride="carousel">
+								<div id="carousel-towershoutout" class="carousel slide" data-ride="carousel">
 									<ol class="carousel-indicators">
-										<li data-target="#carousel-TowerShoutOut" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel-towershoutout" data-slide-to="0" class="active"></li>
 									</ol>
 									<!--TODO Make images/videos in carousel a consistent height-->
 									<div class="carousel-inner">
@@ -548,8 +547,133 @@
 					</div>
 				</div>
 			</div>
-		</div>	
-
+		</div>
+	
+		<!--SOA-->
+		<!--Thumbnail-->
+		<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+			<a class="portfolio-box" data-toggle="modal" data-target="#modal-soa">
+				<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/SOA/Images/SOA-thumbnail.png" alt=""/>
+				<div class="portfolio-box-caption">
+					<div class="portfolio-box-caption-content" >
+						<div class="project-category text-faded">
+							Unity Package
+						</div>
+						<div class="project-name">
+							SOA (Scriptable Object Architecture)
+						</div>
+						<br/>
+						<p class="project-description">
+							A Unity Package for creating a data-driven architecture using Scriptable Objects
+						</p>
+					</div>
+				</div>
+				<div class="portfolio-tags portfolio-box-horizontal-margins">
+					<span class="badge badge-csharp">C#</span>
+					<span class="badge badge-unity">Unity3D</span>
+					<span class="badge badge-context">Game Dev</span>
+					<span class="badge badge-context">Game Tool</span>
+					<span class="badge badge-date">February 2020</span>
+				</div>
+			</a>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="modal-soa" tabindex="-1" role="dialog" aria-labelledby="soa-ModalLabel" aria-hidden="true">
+			<div role="document" class="modal-dialog" style="max-width: 75%;">
+				<div class="modal-content">
+					<!--Modal Title-->
+					<div class="modal-header">
+						<h4 class="modal-title" id="soa-ModalLabel">SOA (Scriptable Object Architecture)</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+						<div class="row" style="margin-left: 20px; margin-right: 20px;">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<!--Description-->
+								<p class="project-description">
+									<h5>Description</h5>
+									A Unity package for creating a data-driven based architecture within Unity.<br/>
+								</p>
+								<p><a href="https://github.com/Luxulicious/SOA">Check it out here on Github!</a></p>
+								<p>
+									<h5>Features</h5>
+									<ul class="fa-ul">
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-angle-right"></i>
+											</span>
+											Variables as Scriptable Objects
+										</li>
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-angle-right"></i>
+											</span>
+											References that can be used within scripts to reference either a variable, locally or a constant
+										</li>
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-angle-right"></i>
+											</span>
+											Game Events as Scriptable Objects which function similar to Unity Events
+										</li>
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-angle-right"></i>
+											</span>
+											Game Event Listeners for listening to game events from within scripts
+											Tool for generating variables, references, game events and listeners
+										</li>
+									</ul>
+								</p>
+								<!--Highlights-->
+								<p>
+									<h5>Highlights</h5>
+									<ul class="fa-ul">
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-check"></i>
+											</span>
+											A generic framework which is easy to implement
+										</li>
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-check"></i>
+											</span>
+											Custom inspector/UI work
+										</li>
+										<li>
+											<span class="fa-li">
+												<i class="fas fa-check"></i>
+											</span>
+											Code generation via templates
+										</li>
+									</ul>
+								</p>
+							</div>
+							<div class="col-lg-6 col-md-12 col-sm-12">
+								<!--Image Slider-->
+								<div id="carousel-soa" class="carousel slide" data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-soa" data-slide-to="0" class="active"></li>
+									</ol>
+									<!--TODO Make images/videos in carousel a consistent height-->
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/SOA/Images/SOA Generator.png" alt="First slide" style="height: auto;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
