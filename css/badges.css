@@ -13,6 +13,11 @@
 	background-color: #a60b0b;
 }
 
+.badge-jenkins {
+	color: #fff;
+	background-color: #4a55bd;
+}
+
 .badge-java {
 	color: #fff;
 	background-color: #ff6666;

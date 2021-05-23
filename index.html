@@ -119,7 +119,7 @@
 					Hi! I'm Tom Ruijs, a game programmer from the Netherlands. 
 					I have been making games in my free time and throughout college for 6+ years and have been coding for 9+ years.
 					I have graduated from Fonty's University of Applied Sciences with bachelor's in ICT & Software Engineering with minor in Game Design and Technology.
-                    Most recently I worked at <a href="https://www.reducept.com">Reducept</a> as a jack of all trades in gameplay/DevOps architect/developer.
+                    Most recently I worked at <a href="https://www.reducept.com" style="color:white">Reducept</a> as a game programmer and DevOp.
 				</p>
 				<p class="text-faded mb-4">
 					Here you can see the most recent projects and games I've worked on.
@@ -196,930 +196,1235 @@
 
 <!--Portfolio section-->
 <section class="p-0" id="portfolio">
-<!--Personal work header-->
-<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<h2 class="section-heading">Personal Work</h2>
-			<hr class="my-4">
+
+	<!--Latest header-->
+	<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Latest Work</h2>
+				<hr class="my-4">
+			</div>
 		</div>
 	</div>
-</div>
-<!--Container for personal work-->
-<div class="container-fluid">
-    <div class="row no-gutters" style="max-width: 80%; margin: auto;">
-        <!--Shroom Stacker-->
-        <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-            <a class="portfolio-box" data-toggle="modal" data-target="#modal-shroomstacker">
-                <img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Shroom Stacker/Images/ShroomStacker-Thumbnail.png" alt="" />
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Puzzle
-                        </div>
-                        <div class="project-name">
-                            Shroom Stacker
-                        </div>
-                        <br />
-                        <p class="project-description">
-                            A game in which you control a bunch of mushrooms that can possess and toss each other toward the goal!
-                        </p>
-                    </div>
-                </div>
-                <div class="portfolio-tags portfolio-box-horizontal-margins">
-                    <span class="badge badge-csharp">C#</span>
-                    <span class="badge badge-unity">Unity3D</span>
-                    <span class="badge badge-context">Game Dev</span>
-                    <span class="badge badge-context">Game Jam</span>
-                    <span class="badge badge-date">Ongoing</span>
-                    <span class="badge badge-date">May 2020</span>
-                </div>
-            </a>
-        </div>
-        <!--Thumbnail-->
-        <!--Modal-->
-        <div class="modal fade" id="modal-shroomstacker" tabindex="-1" role="dialog" aria-labelledby="shroomstacker-ModalLabel" aria-hidden="true">
-            <div role="document" class="modal-dialog" style="max-width: 75%;">
-                <div class="modal-content">
-                    <!--Modal Title-->
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="shroomstacker-ModalLabel">Shroom Stacker</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-                        <div class="row" style="margin-left: 20px; margin-right: 20px;">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--Description-->
-                                <p class="project-description">
-                                    <h5>Description</h5>
-                                    <br />
-                                    A puzzle game where you play as a bunch of mushrooms and take possession over and throw each other toward the goal.
-                                    Originally developed in 24 hours and now a full version is in the works.<br />
-                                </p>
-                                <!--TODO Update link to come from itch.io-->
-                                <p><a href="https://drive.google.com/file/d/1CIYLkk6qLbAUTPhHE2F6gJYVLR5ttDY2/view?usp=sharing">Try out the demo version here!</a></p>
-                                <a href="https://youtu.be/ALQ8RVl_Ouw">For a more recent gameplay video click here!</a>
-                                <p>
-                                    <!--Highlights-->
-                                    <h5>Highlights</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa fa-check"></i>
-                                            </span>
-                                            Level importer that can work from excel sheets.
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa fa-check"></i>
-                                            </span>
-                                            The full version (in progress) is build upon an ECS-like framework.
-                                        </li>
-                                    </ul>
-                                </p>
-                                <p>
-                                    <h5>Contributions</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Programming & concept by Tom Ruijs
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Detailed- & level design by Nick van Grunsven
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!--Image Slider-->
-                                <div id="carousel-shroomstacker" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-shroomstacker" data-slide-to="0" class="active"></li>
-                                    </ol>
-                                    <!--TODO Make images/videos in carousel a consistent height-->
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Shroom Stacker/Videos/MushroomStacker1.mp4" alt="First slide" style="height: auto;" />                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
-        <!--SOA-->
-        <!--Thumbnail-->
-        <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-            <a class="portfolio-box" data-toggle="modal" data-target="#modal-soa">
-                <img class="img-thumbnail portfolio-box-horizontal-margins" src="src\portfolio\SOA\Images\SOA-Thumbnail.png" alt="" />
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Unity Package
-                        </div>
-                        <div class="project-name">
-                            SOA (Scriptable Object Architecture)
-                        </div>
-                        <br />
-                        <p class="project-description">
-                            A Unity Package for creating a data-driven architecture using Scriptable Objects
-                        </p>
-                    </div>
-                </div>
-                <div class="portfolio-tags portfolio-box-horizontal-margins">
-                    <span class="badge badge-csharp">C#</span>
-                    <span class="badge badge-unity">Unity3D</span>
-                    <span class="badge badge-context">Game Dev</span>
-                    <span class="badge badge-context">Game Tool</span>
-                    <span class="badge badge-date">February 2020</span>
-                    <span class="badge badge-date">Ongoing</span>
-                </div>
-            </a>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="modal-soa" tabindex="-1" role="dialog" aria-labelledby="soa-ModalLabel" aria-hidden="true">
-            <div role="document" class="modal-dialog" style="max-width: 75%;">
-                <div class="modal-content">
-                    <!--Modal Title-->
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="soa-ModalLabel">SOA (Scriptable Object Architecture)</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-                        <div class="row" style="margin-left: 20px; margin-right: 20px;">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--Description-->
-                                <p class="project-description">
-                                    <h5>Description</h5>
-                                    A Unity package for creating a data-driven based architecture within Unity.<br />
-                                </p>
-                                <p><a href="https://github.com/Luxulicious/SOA">Check it out here on Github!</a></p>
-                                <p>
-                                    <h5>Features</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Variables as Scriptable Objects
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            References that can be used within scripts to reference either a variable, locally or a constant
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Game Events as Scriptable Objects which function similar to Unity Events
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Game Event Listeners for listening to game events from within scripts
-                                            Tool for generating variables, references, game events and listeners
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            OdinInspector/-Serializer version coming soon!
-                                        </li>
-                                    </ul>
-                                </p>
-                                <!--Highlights-->
-                                <p>
-                                    <h5>Highlights</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            A generic framework which is easy to implement
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Custom inspector/UI work
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Code generation via templates
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!--Image Slider-->
-                                <div id="carousel-soa" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-soa" data-slide-to="0" class="active"></li>
-                                    </ol>
-                                    <!--TODO Make images/videos in carousel a consistent height-->
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/SOA/Images/SOA Generator.png" alt="First slide" style="height: auto;">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--BigWeapCombat-->
-        <!--Thumbnail-->
-        <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-            <a class="portfolio-box" data-toggle="modal" data-target="#modal-bigweapcombat">
-                <img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/BigWeapCombat/BigWeapCombat_Thumbnail.png" alt="" />
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Physics Action Platformer
-                        </div>
-                        <div class="project-name">
-                            BigWeapCombat <br />
-                            (Title S.T.C.)
-                        </div>
-                        <br />
-                        <p class="project-description">
-                            An action-platformer where you maneuver around with a huge sword!
-                        </p>
-                    </div>
-                </div>
-                <div class="portfolio-tags portfolio-box-horizontal-margins">
-                    <span class="badge badge-csharp">C#</span>
-                    <span class="badge badge-unity">Unity3D</span>
-                    <span class="badge badge-context">Game Dev</span>
-                    <span class="badge badge-date">Ongoing</span>
-                </div>
-            </a>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="modal-bigweapcombat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div role="document" class="modal-dialog" style="max-width: 75%;">
-                <div class="modal-content">
-                    <!--Modal Title-->
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">BigWeapCombat (Title pending)</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-                        <div class="row" style="margin-left: 20px; margin-right: 20px;">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--Description-->
-                                <p class="project-description">
-                                    <h5>Description</h5>
-                                    An action platformer where you use a sword that can grow and shrink on command
-                                    to maneuver through obstacles. A personal project and a work in progress.
-                                </p>
-                                <!--Highlights/Contributions-->
-                                <p>
-                                    <h5>Highlights</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Combining custom physics with unity's native physics engine
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Custom collision resolution
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Very modular and almost completely event-driven/data-driven
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Re-usable code base (used in various game jams as a base)
-                                        </li>
-                                    </ul>
-                                </p>
-                                <p class="project-description">
-                                    <a href="https://gist.github.com/Luxulicious/e1b537c33b8054c39deee44873811d52">Check out some of it's source code here!</a>
-                                </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!--Image Slider-->
-                                <div id="carousel-BigWeapCombat" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-BigWeapCombat" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carousel-BigWeapCombat" data-slide-to="1"></li>
-                                        <li data-target="#carousel-BigWeapCombat" data-slide-to="2"></li>
-                                        <li data-target="#carousel-BigWeapCombat" data-slide-to="3"></li>
-                                    </ol>
-                                    <!--TODO Make images/videos in carousel a consistent height-->
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Stabs.mp4" alt="First slide"/>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Swings.mp4" alt="Second slide"/>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Gameplay_Image.png" alt="Third slide">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Gameplay_Image_2.png" alt="Fourth slide">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carousel-BigWeapCombat" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carousel-BigWeapCombat" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Record Play-->
-        <!--Thumbnail-->
-        <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-            <a class="portfolio-box" data-toggle="modal" data-target="#modal-recordplay">
-                <img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Record Play/Images/Recordplay-Thumbnail.png" alt="" />
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Multi-player Rhythm/Evasion Game
-                        </div>
-                        <div class="project-name">
-                            Record Play
-                        </div>
-                        <br />
-                        <p class="project-description">
-                            Outrun the recordneedle and evade the rythnm spikes!
-                        </p>
-                    </div>
-                </div>
-                <div class="portfolio-tags portfolio-box-horizontal-margins">
-                    <span class="badge badge-csharp">C#</span>
-                    <span class="badge badge-unity">Unity3D</span>
-                    <span class="badge badge-context">Game Dev</span>
-                    <span class="badge badge-context">Game Jam</span>
-                    <span class="badge badge-date">February 2019</span>
-                </div>
-            </a>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="modal-recordplay" tabindex="-1" role="dialog" aria-labelledby="recordplay-ModalLabel" aria-hidden="true">
-            <div role="document" class="modal-dialog" style="max-width: 75%;">
-                <div class="modal-content">
-                    <!--Modal Title-->
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="recordplay-ModalLabel">Record Play</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-                        <div class="row" style="margin-left: 20px; margin-right: 20px;">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--Description-->
-                                <p class="project-description">
-                                    <h5>Description</h5>
-                                    A pseudo rythm game where you have to avoid getting hit by the
-                                    recordneedle.
-                                </p>
-                                <p><a href="https://theluxgames.itch.io/recordplay">Play it here!</a></p>
-                                <p>
-                                    <h5>Contributions</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Programming & gameplay design done by Tom Ruijs.
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Record graphics done by <a href="http://malyx.net/index.html">Malyx</a>.
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Remaining graphics done by Tom Ruijs.
-                                        </li>
-                                    </ul>
-                                </p>
-                                <!--Highlights-->
-                                <p>
-                                    <h5>Highlights</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Centrifugal physics & -movement mechanics
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!--Image Slider-->
-                                <div id="carousel-RecordPlay" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-RecordPlay" data-slide-to="0" class="active"></li>
-                                    </ol>
-                                    <!--TODO Make images/videos in carousel a consistent height-->
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Record Play/Videos/Record Play Gameplay.mp4" alt="First slide"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Tower Shootout-->
-        <!--Thumbnail-->
-        <div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-            <a class="portfolio-box" data-toggle="modal" data-target="#modal-towershootout">
-                <img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Tower Shootout/Images/Tower Shootout Thumbnail.png" alt="" />
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                        <div class="project-category text-faded">
-                            Multi-player Platform-scrolling Shooter
-                        </div>
-                        <div class="project-name">
-                            Tower Shootout
-                        </div>
-                        <br />
-                        <p class="project-description">
-                            Shoot bullets at each other and push one another to the edges of the screen and into the their demise!
-                        </p>
-                    </div>
-                </div>
-                <div class="portfolio-tags portfolio-box-horizontal-margins">
-                    <span class="badge badge-csharp">C#</span>
-                    <span class="badge badge-unity">Unity3D</span>
-                    <span class="badge badge-context">Game Dev</span>
-                    <span class="badge badge-context">Game Jam</span>
-                    <span class="badge badge-date">March 2019</span>
-                </div>
-            </a>
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="modal-towershootout" tabindex="-1" role="dialog" aria-labelledby="towershootout-ModalLabel" aria-hidden="true">
-            <div role="document" class="modal-dialog" style="max-width: 75%;">
-                <div class="modal-content">
-                    <!--Modal Title-->
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="towershootout-ModalLabel">Tower Shoot-out</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-                        <div class="row" style="margin-left: 20px; margin-right: 20px;">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
-                                <!--Description-->
-                                <p class="project-description">
-                                    <h5>Description</h5>
-                                    A game where you have to shoot each other out of bounds! <br />
-                                    Made during a 24 hour gamejam.
-                                </p>
-                                <p><a href="https://theluxgames.itch.io/tower-shootout">Play it here!</a></p>
-                                <p>
-                                    <h5>Contributions</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Programming done by Tom Ruijs (exc. charge mechanic)
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-angle-right"></i>
-                                            </span>
-                                            Design by Nick van Grunsven & Tom Ruijs
-                                        </li>
-                                    </ul>
-                                </p>
-                                <!--Highlights-->
-                                <p>
-                                    <h5>Highlights</h5>
-                                    <ul class="fa-ul">
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Game was mechanically sound despite game jam partner being infrequently present
-                                        </li>
-                                        <li>
-                                            <span class="fa-li">
-                                                <i class="fas fa-check"></i>
-                                            </span>
-                                            Largely build upon self-written pre-existing code
-                                        </li>
-                                    </ul>
-                                </p>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!--Image Slider-->
-                                <div id="carousel-towershoutout" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-towershoutout" data-slide-to="0" class="active"></li>
-                                    </ol>
-                                    <!--TODO Make images/videos in carousel a consistent height-->
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Tower Shootout/Videos/Tower Shootout Gameplay.mp4" alt="First slide" style="height: auto;"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<!--Professional and school projects header -->
-<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
-	<div class="row">
-		<div class="col-lg-12 text-center">
-			<h2 class="section-heading">Professional- & College Projects</h2>
-			<hr class="my-4">
-		</div>
-	</div>
-</div>
-<!--Container for professional and school projects-->
-<div class="container-fluid">
-	<div class="row no-gutters" style="max-width: 80%; margin: auto;">
-		
-		<!--Monster Catcher-->
-		<!--Thumbnail-->
-		<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-			<a class="portfolio-box" data-toggle="modal" data-target="#modal-monstercatcher">
-				<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Monster Catcher/Images/Monster Catcher Icon.png" alt=""/>
-				<div class="portfolio-box-caption">
-					<div class="portfolio-box-caption-content" >
-						<div class="project-category text-faded">
-							Multi-device Multi-player Game
-						</div>
-						<div class="project-name">
-							Monster Catcher
-						</div>
-						<br/>
-						<p class="project-description">
-							Catch the wandering monsters from across various screens.
-						</p>
-					</div>
-				</div>
-				<div class="portfolio-tags portfolio-box-horizontal-margins">
-					<span class="badge badge-csharp">C#</span>
-					<span class="badge badge-unity">Unity3D</span>
-					<span class="badge badge-context">Game Dev</span>
-					<span class="badge badge-context">Mobile Game</span>
-					<span class="badge badge-date">Jan 2019</span>
-				</div>
-			</a>
-		</div>
-		<!-- Modal -->
-		<div class="modal fade" id="modal-monstercatcher" tabindex="-1" role="dialog" aria-labelledby="monstercatcher-ModalLabel" aria-hidden="true">
-			<div role="document" class="modal-dialog" style="max-width: 75%;">
-				<div class="modal-content">
-					<!--Modal Title-->
-					<div class="modal-header">
-						<h4 class="modal-title" id="monstercatcher-ModalLabel">Monster Catcher</h4>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-						<div class="row" style="margin-left: 20px; margin-right: 20px;">
-							<div class="col-lg-6 col-md-6 col-sm-6">
-								<!--Description-->
-								<p class="project-description">
-									<h5>Description</h5>
-									A game where you have to catch wandering monsters over various mobile phone screens.
-									One of the mini-games made for a the <a>PowerBreak</a> app; a college project.
-								</p>
-								<p>
-									<h5>Contributions</h5>
-									<ul class="fa-ul">
-										<li>
-											<span class="fa-li">
-												<i class="fas fa-angle-right"></i>
-											</span>
-											Programming done by Tom Ruijs (Game architecture, movement/catch mechanics and networking)  & Yorrin (App integration, lobbies and networking)
-										</li>
-										<li>
-											<span class="fa-li">
-												<i class="fas fa-angle-right"></i>
-											</span>
-											Design and graphics by <a href="http://malyx.net/">Malyx</a>
-										</li>
-									</ul>
-								</p>
-								<!--Highlights-->
-								<p>
-									<h5>Highlights</h5>
-									<ul class="fa-ul">
-										<li>
-											<span class="fa-li">
-												<i class="fas fa-check"></i>
-											</span>
-											Up to eight players at a time! (And could be extended to many more with ease)
-										</li>
-										<li>
-											<span class="fa-li">
-												<i class="fas fa-check"></i>
-											</span>
-											Responsive multi-device gaming via UDP
-										</li>
-										<li>
-											<span class="fa-li">
-												<i class="fas fa-check"></i>
-											</span>
-											Technical problems got fixed by self-written inspector logic
-										</li>
-									</ul>
-								</p>
+	<!--Container for latest project-->
+	<div class="container-fluid">
+		<div class="row ce no-gutters justify-content-center" style="max-width: 80%; margin: auto;">
+			<!--Reducept-->
+			<!--Thumbnail-->
+			<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+				<a class="portfolio-box" data-toggle="modal" data-target="#modal-reducept">
+					<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Reducept/Images/Reducept-Thumbnail.png" alt="" />
+					<div class="portfolio-box-caption">
+						<div class="portfolio-box-caption-content">
+							<div class="project-category text-faded">
+								Serious VR/Mobile Game For Health
 							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<!--Image Slider-->
-								<div id="carousel-monstercatcher" class="carousel slide" data-ride="carousel">
-									<ol class="carousel-indicators">
-										<li data-target="#carousel-monstercatcher" data-slide-to="0" class="active"></li>
-										<li data-target="#carousel-monstercatcher" data-slide-to="1"></li>
-										<li data-target="#carousel-monstercatcher" data-slide-to="2"></li>
-										<li data-target="#carousel-monstercatcher" data-slide-to="3"></li>
-									</ol>
-									<div class="carousel-inner">
-										<div class="carousel-item active portfolio-carousel-item-bg">
-                                            <video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Monster Catcher/Videos/IRL Gameplay Monster Catcher Zoomed-in.mp4" alt="First slide"/>
+							<div class="project-name">
+								Reducept
+							</div>
+							<br />
+							<p class="project-description">
+								Become the master of your pain using the Reducept-method.
+							</p>
+						</div>
+					</div>
+					<div class="portfolio-tags portfolio-box-horizontal-margins">
+						<span class="badge badge-csharp">C#</span>
+						<span class="badge badge-jenkins">Jenkins</span>
+						<span class="badge badge-unity">Unity3D</span>
+						<span class="badge badge-context">Game Dev</span>
+						<span class="badge badge-context">Mobile Game</span>
+						<span class="badge badge-context">VR Game</span>
+						<span class="badge badge-date">2020-2021</span>
+					</div>
+				</a>
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="modal-reducept" tabindex="-1" role="dialog" aria-labelledby="reducept-ModalLabel" aria-hidden="true">
+				<div role="document" class="modal-dialog" style="max-width: 75%;">
+					<div class="modal-content">
+						<!--Modal Title-->
+						<div class="modal-header">
+							<h4 class="modal-title" id="reducept-ModalLabel">Reducept</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+							<div class="row" style="margin-left: 20px; margin-right: 20px;">
+								<div class="col-lg-6 col-md-6 col-sm-6">
+									<!--Description-->
+									<p class="project-description">
+										<h5>Description</h5>
+										A game that helps you in conquering your pain by immersing the player in VR and exploring their pain.
+									</p>
+									<p>
+										<h5>Contributions</h5>
+										<ul class="fa-ul">
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-angle-right"></i>
+												</span>
+												Game Programmer
+											</li>
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-angle-right"></i>
+												</span>
+												DevOps (CI/CD)
+											</li>
+										</ul>
+									</p>
+									<!--Highlights-->
+									<p>
+										<h5>Highlights</h5>
+										<ul class="fa-ul">
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-check"></i>
+												</span>
+												Automated the building process using Jenkins and various plugins.
+												Includes a custom menu to request remote builds from within Unity.
+											</li>
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-check"></i>
+												</span>
+												Improved the at the time substandard code quality significantly and raised the coding standards accordingly.
+												Whilst fixing other fundemental scripts for maintainability.
+											</li>
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-check"></i>
+												</span>
+												Introduced unit testing and test driven development into the workflow.
+											</li>
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-check"></i>
+												</span>
+												Reworked a significant portion of the backend using the repository pattern.
+											</li>
+											<li>
+												<span class="fa-li">
+													<i class="fas fa-check"></i>
+												</span>
+												Improved the game's overall system maintainability, by introducing alternative design patterns.
+												(Previously filled with race condition issues and singleton abuse.)
+											</li>
+										</ul>
+									</p>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12">
+									<!--Image Slider-->
+									<div id="carousel-reducept" class="carousel slide" data-ride="carousel">
+										<ol class="carousel-indicators">
+											<li data-target="#carousel-reducept" data-slide-to="0" class="active"></li>
+											<li data-target="#carousel-reducept" data-slide-to="1"></li>
+											<li data-target="#carousel-reducept" data-slide-to="2"></li>
+										</ol>
+										<div class="carousel-inner">
+											<div class="carousel-item active portfolio-carousel-item-bg">
+												<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Reducept/Videos/Reducept-Gameplay.mp4" alt="First slide" />
+											</div>
+											<div class="carousel-item portfolio-carousel-item-bg">
+												<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Reducept/Images/Reducept-PresetSettingsLocal.png" alt="Third slide">
+											</div>
+											<div class="carousel-item portfolio-carousel-item-bg">
+												<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Reducept/Images/Reducept-PresetSettingsRemote.png" alt="Third slide">
+											</div>
 										</div>
-										<div class="carousel-item portfolio-carousel-item-bg">
-                                            <video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Monster Catcher/Videos/Monster Catcher Tutorial.mp4" alt="Second slide"/>
+										<a class="carousel-control-prev" href="#carousel-reducept" role="button" data-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="sr-only">Previous</span>
+										</a>
+										<a class="carousel-control-next" href="#carousel-reducept" role="button" data-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="sr-only">Next</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+			<!--Personal work header-->
+			<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="section-heading">Personal Work</h2>
+						<hr class="my-4">
+					</div>
+				</div>
+			</div>
+			<!--Container for personal work-->
+			<div class="container-fluid">
+				<div class="row no-gutters" style="max-width: 80%; margin: auto;">
+					<!--Shroom Stacker-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-shroomstacker">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Shroom Stacker/Images/ShroomStacker-Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Puzzle
+									</div>
+									<div class="project-name">
+										Shroom Stacker
+									</div>
+									<br />
+									<p class="project-description">
+										A game in which you control a bunch of mushrooms that can possess and toss each other toward the goal!
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-context">Game Jam</span>
+								<span class="badge badge-date">Ongoing</span>
+								<span class="badge badge-date"><!--May -->2020</span>
+							</div>
+						</a>
+					</div>
+					<!--Thumbnail-->
+					<!--Modal-->
+					<div class="modal fade" id="modal-shroomstacker" tabindex="-1" role="dialog" aria-labelledby="shroomstacker-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="shroomstacker-ModalLabel">Shroom Stacker</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												<br />
+												A puzzle game where you play as a bunch of mushrooms and take possession over and throw each other toward the goal.
+												Originally developed in 24 hours and now a full version is in the works.<br />
+											</p>
+											<!--TODO Update link to come from itch.io-->
+											<p><a href="https://drive.google.com/file/d/1CIYLkk6qLbAUTPhHE2F6gJYVLR5ttDY2/view?usp=sharing">Try out the demo version here!</a></p>
+											<a href="https://youtu.be/ALQ8RVl_Ouw">For a more recent gameplay video click here!</a>
+											<p>
+												<!--Highlights-->
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa fa-check"></i>
+														</span>
+														Level importer that can work from excel sheets.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa fa-check"></i>
+														</span>
+														The full version (in progress) is build upon an ECS-like framework.
+													</li>
+												</ul>
+											</p>
+											<p>
+												<h5>Contributions</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Programming & concept by Tom Ruijs
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Detailed- & level design by Nick van Grunsven
+													</li>
+												</ul>
+											</p>
 										</div>
-										<div class="carousel-item portfolio-carousel-item-bg">
-											<img class="d-block portfolio-carousel-item-image-wide"  src="src/portfolio/Monster Catcher/Images/Monster Catcher In-Game.png" alt="Third slide">
-										</div>
-										<div class="carousel-item portfolio-carousel-item-bg">
-                                            <video muted autoplay class="d-block portfolio-carousel-item-image-wide"  src="src/portfolio/Monster Catcher/Videos/Context Menu Problem Solving.mp4" alt="Fourth slide"/>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-shroomstacker" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-shroomstacker" data-slide-to="0" class="active"></li>
+												</ol>
+												<!--TODO Make images/videos in carousel a consistent height-->
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Shroom Stacker/Videos/MushroomStacker1.mp4" alt="First slide" style="height: auto;" />
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
-									<a class="carousel-control-prev" href="#carousel-monstercatcher" role="button" data-slide="prev">
-										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#carousel-monstercatcher" role="button" data-slide="next">
-										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!--Sixth Sense-->
-		<!--Thumbnail-->
-		<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-			<a class="portfolio-box" data-toggle="modal" data-target="#modal-sixthsense">
-				<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Sixth Sense/Images/Sixth Sense Thumbnail.png" alt=""/>
-				<div class="portfolio-box-caption">
-					<div class="portfolio-box-caption-content" >
-						<div class="project-category text-faded">
-							Horror Game
-						</div>
-						<div class="project-name">
-							Sixth Sense
-						</div>
-						<br/>
-						<p class="project-description">
-							A horror game where you need to use your sixth sense...
-						</p>
-					</div>
-				</div>
-				<div class="portfolio-tags portfolio-box-horizontal-margins">
-					<span class="badge badge-csharp">C#</span>
-					<span class="badge badge-unity">Unity3D</span>
-					<span class="badge badge-cplusplus">C++</span>
-					<span class="badge badge-context">Game Dev</span>
-					<span class="badge badge-date">2017</span>
-				</div>
-			</a>
-		</div>
-		<!-- Modal -->
-		<div class="modal fade" id="modal-sixthsense" tabindex="-1" role="dialog" aria-labelledby="sixthsense-ModalLabel" aria-hidden="true">
-			<div role="document" class="modal-dialog" style="max-width: 75%;">
-				<div class="modal-content">
-					<!--Modal Title-->
-					<div class="modal-header">
-						<h4 class="modal-title" id="sixthsense-ModalLabel">Sixth Sense</h4>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-						<div class="row" style="margin-left: 20px; margin-right: 20px;">
-							<div class="col-lg-6 col-md-6 col-sm-6">
-								<!--Description-->
-								<p class="project-description">
-									<h5>Description</h5>
-									A horror game where you use a haptic feedback from a chair to maneuver through a labyrinth.
-									The chair serving as your compass to the exit and telling you where the monster hides. 
-									A college project.
-								</p>
-								<!--Highlights-->
-								<p>
-									<h5>Highlights</h5>
-									<ul class="fa-ul">
-										<li>
-											<span class="fa-li">
-												<i class="fas fa-check"></i>
-											</span>
-											Connecting to a C++ based API from the haptic feedback chair to Unity
-										</li>
-									</ul>
-								</p>
+
+
+					<!--SOA-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-soa">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src\portfolio\SOA\Images\SOA-Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Unity Package
+									</div>
+									<div class="project-name">
+										SOA (Scriptable Object Architecture)
+									</div>
+									<br />
+									<p class="project-description">
+										A Unity Package for creating a data-driven architecture using Scriptable Objects
+									</p>
+								</div>
 							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<!--Image Slider-->
-								<div id="carousel-sixthsense" class="carousel slide" data-ride="carousel">
-									<ol class="carousel-indicators">
-										<li data-target="#carousel-sixthsense" data-slide-to="0" class="active"></li>
-										<li data-target="#carousel-sixthsense" data-slide-to="1"></li>
-									</ol>
-									<div class="carousel-inner">
-										<div class="carousel-item active portfolio-carousel-item-bg">
-											<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Sixth Sense/Images/Sixth Sense Gameplay.png" alt="First slide">
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-context">Game Tool</span>
+								<span class="badge badge-date"><!--February-->2020</span>
+								<span class="badge badge-date">Ongoing</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-soa" tabindex="-1" role="dialog" aria-labelledby="soa-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="soa-ModalLabel">SOA (Scriptable Object Architecture)</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A Unity package for creating a data-driven based architecture within Unity.<br />
+											</p>
+											<p><a href="https://github.com/Luxulicious/SOA">Check it out here on Github!</a></p>
+											<p>
+												<h5>Features</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Variables as Scriptable Objects
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														References that can be used within scripts to reference either a variable, locally or a constant
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Game Events as Scriptable Objects which function similar to Unity Events
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Game Event Listeners for listening to game events from within scripts
+														Tool for generating variables, references, game events and listeners
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														OdinInspector/-Serializer version coming soon!
+													</li>
+												</ul>
+											</p>
+											<!--Highlights-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														A generic framework which is easy to implement
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Custom inspector/UI work
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Code generation via templates
+													</li>
+												</ul>
+											</p>
 										</div>
-										<div class="carousel-item portfolio-carousel-item-bg">
-                                            <video muted autoplay class="d-block portfolio-carousel-item-image-wide"  src="src/portfolio/Sixth Sense/Videos/Sixth Sense Gameplay.mp4" alt="Second slide"/>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-soa" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-soa" data-slide-to="0" class="active"></li>
+												</ol>
+												<!--TODO Make images/videos in carousel a consistent height-->
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/SOA/Images/SOA Generator.png" alt="First slide" style="height: auto;">
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
-									<a class="carousel-control-prev" href="#carousel-sixthsense" role="button" data-slide="prev">
-										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#carousel-sixthsense" role="button" data-slide="next">
-										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	
-		<!--Nightmare House-->
-		<!--Thumbnail-->
-		<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
-			<a class="portfolio-box" data-toggle="modal" data-target="#modal-nightmarehouse">
-				<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Nightmare House/Images/nightmarethumb.png" alt=""/>
-				<div class="portfolio-box-caption">
-					<div class="portfolio-box-caption-content" >
-						<div class="project-category text-faded">
-							Turn-based Strategy Game
-						</div>
-						<div class="project-name">
-							Nightmare House
-						</div>
-						<br/>
-						<p class="project-description">
-							A turn-based stragety game with a spooky theme
-						</p>
-					</div>
-				</div>
-				<div class="portfolio-tags portfolio-box-horizontal-margins">
-					<span class="badge badge-csharp">C#</span>
-					<span class="badge badge-unity">Unity3D</span>
-					<span class="badge badge-context">Game Dev</span>
-					<span class="badge badge-date">2016</span>
-				</div>
-			</a>
-		</div>
-		<!-- Modal -->
-		<div class="modal fade" id="modal-nightmarehouse" tabindex="-1" role="dialog" aria-labelledby="nightmarehouse-ModalLabel" aria-hidden="true">
-			<div role="document" class="modal-dialog" style="max-width: 75%;">
-				<div class="modal-content">
-					<!--Modal Title-->
-					<div class="modal-header">
-						<h4 class="modal-title" id="nightmarehouse-ModalLabel">Sixth Sense</h4>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
-						<div class="row" style="margin-left: 20px; margin-right: 20px;">
-							<div class="col-lg-6 col-md-6 col-sm-6">
-								<!--Description-->
-								<p class="project-description">
-									<h5>Description</h5>
-									A turn-based strategy with a spooky theme. Up to 4 players at a time.
-									Includes a system for managing players and other properties via scriptable objects.
-									A game made early in college years.
-								</p>
+
+					<!--BigWeapCombat-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-bigweapcombat">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/BigWeapCombat/BigWeapCombat_Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Physics Action Platformer
+									</div>
+									<div class="project-name">
+										BigWeapCombat <br />
+										(Title S.T.C.)
+									</div>
+									<br />
+									<p class="project-description">
+										An action-platformer where you maneuver around with a huge sword!
+									</p>
+								</div>
 							</div>
-							<div class="col-lg-6 col-md-12 col-sm-12">
-								<!--Image Slider-->
-								<div id="carousel-nightmarehouse" class="carousel slide" data-ride="carousel">
-									<ol class="carousel-indicators">
-										<li data-target="#carousel-sixthsense" data-slide-to="0" class="active"></li>
-									</ol>
-									<div class="carousel-inner">
-										<div class="carousel-item active portfolio-carousel-item-bg">
-                                            <video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Nightmare House/Videos/Nightmare House.mp4" alt="First slide"/>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-date">Ongoing</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-bigweapcombat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="exampleModalLabel">BigWeapCombat (Title pending)</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												An action platformer where you use a sword that can grow and shrink on command
+												to maneuver through obstacles. A personal project and a work in progress.
+											</p>
+											<!--Highlights/Contributions-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Combining custom physics with unity's native physics engine
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Custom collision resolution
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Very modular and almost completely event-driven/data-driven
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Re-usable code base (used in various game jams as a base)
+													</li>
+												</ul>
+											</p>
+											<p class="project-description">
+												<a href="https://gist.github.com/Luxulicious/e1b537c33b8054c39deee44873811d52">Check out some of it's source code here!</a>
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-BigWeapCombat" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-BigWeapCombat" data-slide-to="0" class="active"></li>
+													<li data-target="#carousel-BigWeapCombat" data-slide-to="1"></li>
+													<li data-target="#carousel-BigWeapCombat" data-slide-to="2"></li>
+													<li data-target="#carousel-BigWeapCombat" data-slide-to="3"></li>
+												</ol>
+												<!--TODO Make images/videos in carousel a consistent height-->
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Stabs.mp4" alt="First slide" />
+													</div>
+													<div class="carousel-item">
+														<video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Swings.mp4" alt="Second slide" />
+													</div>
+													<div class="carousel-item">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Gameplay_Image.png" alt="Third slide">
+													</div>
+													<div class="carousel-item">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/BigWeapCombat/BigWeapCombat_Gameplay_Image_2.png" alt="Fourth slide">
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carousel-BigWeapCombat" role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#carousel-BigWeapCombat" role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>
 										</div>
 									</div>
-									<a class="carousel-control-prev" href="#carousel-nightmarehouse" role="button" data-slide="prev">
-										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="sr-only">Previous</span>
-									</a>
-									<a class="carousel-control-next" href="#carousel-nightmarehouse" role="button" data-slide="next">
-										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="sr-only">Next</span>
-									</a>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+					<!--Record Play-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-recordplay">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Record Play/Images/Recordplay-Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Multi-player Rhythm/Evasion Game
+									</div>
+									<div class="project-name">
+										Record Play
+									</div>
+									<br />
+									<p class="project-description">
+										Outrun the recordneedle and evade the rythnm spikes!
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-context">Game Jam</span>
+								<span class="badge badge-date"><!--February-->2019</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-recordplay" tabindex="-1" role="dialog" aria-labelledby="recordplay-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="recordplay-ModalLabel">Record Play</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A pseudo rythm game where you have to avoid getting hit by the
+												recordneedle.
+											</p>
+											<p><a href="https://theluxgames.itch.io/recordplay">Play it here!</a></p>
+											<p>
+												<h5>Contributions</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Programming & gameplay design done by Tom Ruijs.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Record graphics done by <a href="http://malyx.net/index.html">Malyx</a>.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Remaining graphics done by Tom Ruijs.
+													</li>
+												</ul>
+											</p>
+											<!--Highlights-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Centrifugal physics & -movement mechanics
+													</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-RecordPlay" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-RecordPlay" data-slide-to="0" class="active"></li>
+												</ol>
+												<!--TODO Make images/videos in carousel a consistent height-->
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Record Play/Videos/Record Play Gameplay.mp4" alt="First slide" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Tower Shootout-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-towershootout">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Tower Shootout/Images/Tower Shootout Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Multi-player Platform-scrolling Shooter
+									</div>
+									<div class="project-name">
+										Tower Shootout
+									</div>
+									<br />
+									<p class="project-description">
+										Shoot bullets at each other and push one another to the edges of the screen and into the their demise!
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-context">Game Jam</span>
+								<span class="badge badge-date"><!--March-->2019</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-towershootout" tabindex="-1" role="dialog" aria-labelledby="towershootout-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="towershootout-ModalLabel">Tower Shoot-out</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A game where you have to shoot each other out of bounds! <br />
+												Made during a 24 hour gamejam.
+											</p>
+											<p><a href="https://theluxgames.itch.io/tower-shootout">Play it here!</a></p>
+											<p>
+												<h5>Contributions</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Programming done by Tom Ruijs (exc. charge mechanic)
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Design by Nick van Grunsven & Tom Ruijs
+													</li>
+												</ul>
+											</p>
+											<!--Highlights-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Game was mechanically sound despite game jam partner being infrequently present
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Largely build upon self-written pre-existing code
+													</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-towershoutout" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-towershoutout" data-slide-to="0" class="active"></li>
+												</ol>
+												<!--TODO Make images/videos in carousel a consistent height-->
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<video muted autoplay loop class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Tower Shootout/Videos/Tower Shootout Gameplay.mp4" alt="First slide" style="height: auto;" />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!--Professional and school projects header -->
+			<div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 class="section-heading">Professional- & College Projects</h2>
+						<hr class="my-4">
 					</div>
 				</div>
 			</div>
-		</div>
-		
-	</div>
-</div>
+			<!--Container for professional and school projects-->
+			<div class="container-fluid">
+				<div class="row no-gutters" style="max-width: 80%; margin: auto;">
+
+					<!--Reducept-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-reducept">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Reducept/Images/Reducept-Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Serious VR/Mobile Game For Health
+									</div>
+									<div class="project-name">
+										Reducept
+									</div>
+									<br />
+									<p class="project-description">
+										Become the master of your pain using the Reducept-method.
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-jenkins">Jenkins</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-context">Mobile Game</span>
+								<span class="badge badge-context">VR Game</span>
+								<span class="badge badge-date">2020-2021</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-reducept" tabindex="-1" role="dialog" aria-labelledby="reducept-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="reducept-ModalLabel">Reducept</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A game that helps you in conquering your pain by immersing the player in VR and exploring their pain.
+											</p>
+											<p>
+												<h5>Contributions</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Game Programmer
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														DevOps (CI/CD)
+													</li>
+												</ul>
+											</p>
+											<!--Highlights-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Automated the building process using Jenkins and various plugins.
+														Includes a custom menu to request remote builds from within Unity.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Improved the at the time substandard code quality significantly and raised the coding standards accordingly.
+														Whilst fixing other fundemental scripts for maintainability.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Introduced unit testing and test driven development into the workflow.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Reworked a significant portion of the backend using the repository pattern.
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Improved the game's overall system maintainability, by introducing alternative design patterns.
+														(Previously filled with race condition issues and singleton abuse.)
+													</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-reducept" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-reducept" data-slide-to="0" class="active"></li>
+													<li data-target="#carousel-reducept" data-slide-to="1"></li>
+													<li data-target="#carousel-reducept" data-slide-to="2"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="carousel-item active portfolio-carousel-item-bg">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Reducept/Videos/Reducept-Gameplay.mp4" alt="First slide" />
+													</div>
+													<div class="carousel-item portfolio-carousel-item-bg">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Reducept/Images/Reducept-PresetSettingsLocal.png" alt="Third slide">
+													</div>
+													<div class="carousel-item portfolio-carousel-item-bg">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Reducept/Images/Reducept-PresetSettingsRemote.png" alt="Third slide">
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carousel-reducept" role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#carousel-reducept" role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Monster Catcher-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-monstercatcher">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Monster Catcher/Images/Monster Catcher Icon.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Multi-device Multi-player Game
+									</div>
+									<div class="project-name">
+										Monster Catcher
+									</div>
+									<br />
+									<p class="project-description">
+										Catch the wandering monsters from across various screens.
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-context">Mobile Game</span>
+								<span class="badge badge-date"><!--Jan--> 2019</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-monstercatcher" tabindex="-1" role="dialog" aria-labelledby="monstercatcher-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="monstercatcher-ModalLabel">Monster Catcher</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A game where you have to catch wandering monsters over various mobile phone screens.
+												One of the mini-games made for a the <a>PowerBreak</a> app; a college project.
+											</p>
+											<p>
+												<h5>Contributions</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Programming done by Tom Ruijs (Game architecture, movement/catch mechanics and networking)  & Yorrin (App integration, lobbies and networking)
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-angle-right"></i>
+														</span>
+														Design and graphics by <a href="http://malyx.net/">Malyx</a>
+													</li>
+												</ul>
+											</p>
+											<!--Highlights-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Up to eight players at a time! (And could be extended to many more with ease)
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Responsive multi-device gaming via UDP
+													</li>
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Technical problems got fixed by self-written inspector logic
+													</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-monstercatcher" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-monstercatcher" data-slide-to="0" class="active"></li>
+													<li data-target="#carousel-monstercatcher" data-slide-to="1"></li>
+													<li data-target="#carousel-monstercatcher" data-slide-to="2"></li>
+													<li data-target="#carousel-monstercatcher" data-slide-to="3"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="carousel-item active portfolio-carousel-item-bg">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Monster Catcher/Videos/IRL Gameplay Monster Catcher Zoomed-in.mp4" alt="First slide" />
+													</div>
+													<div class="carousel-item portfolio-carousel-item-bg">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Monster Catcher/Videos/Monster Catcher Tutorial.mp4" alt="Second slide" />
+													</div>
+													<div class="carousel-item portfolio-carousel-item-bg">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Monster Catcher/Images/Monster Catcher In-Game.png" alt="Third slide">
+													</div>
+													<div class="carousel-item portfolio-carousel-item-bg">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Monster Catcher/Videos/Context Menu Problem Solving.mp4" alt="Fourth slide" />
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carousel-monstercatcher" role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#carousel-monstercatcher" role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Sixth Sense-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-sixthsense">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Sixth Sense/Images/Sixth Sense Thumbnail.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Horror Game
+									</div>
+									<div class="project-name">
+										Sixth Sense
+									</div>
+									<br />
+									<p class="project-description">
+										A horror game where you need to use your sixth sense...
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-cplusplus">C++</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-date">2017</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-sixthsense" tabindex="-1" role="dialog" aria-labelledby="sixthsense-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="sixthsense-ModalLabel">Sixth Sense</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A horror game where you use a haptic feedback from a chair to maneuver through a labyrinth.
+												The chair serving as your compass to the exit and telling you where the monster hides.
+												A college project.
+											</p>
+											<!--Highlights-->
+											<p>
+												<h5>Highlights</h5>
+												<ul class="fa-ul">
+													<li>
+														<span class="fa-li">
+															<i class="fas fa-check"></i>
+														</span>
+														Connecting to a C++ based API from the haptic feedback chair to Unity
+													</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-sixthsense" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-sixthsense" data-slide-to="0" class="active"></li>
+													<li data-target="#carousel-sixthsense" data-slide-to="1"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="carousel-item active portfolio-carousel-item-bg">
+														<img class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Sixth Sense/Images/Sixth Sense Gameplay.png" alt="First slide">
+													</div>
+													<div class="carousel-item portfolio-carousel-item-bg">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Sixth Sense/Videos/Sixth Sense Gameplay.mp4" alt="Second slide" />
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carousel-sixthsense" role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#carousel-sixthsense" role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Nightmare House-->
+					<!--Thumbnail-->
+					<div class="col-lg-4 col-md-6 col-sm-12" style="padding: 10px;">
+						<a class="portfolio-box" data-toggle="modal" data-target="#modal-nightmarehouse">
+							<img class="img-thumbnail portfolio-box-horizontal-margins" src="src/portfolio/Nightmare House/Images/nightmarethumb.png" alt="" />
+							<div class="portfolio-box-caption">
+								<div class="portfolio-box-caption-content">
+									<div class="project-category text-faded">
+										Turn-based Strategy Game
+									</div>
+									<div class="project-name">
+										Nightmare House
+									</div>
+									<br />
+									<p class="project-description">
+										A turn-based stragety game with a spooky theme
+									</p>
+								</div>
+							</div>
+							<div class="portfolio-tags portfolio-box-horizontal-margins">
+								<span class="badge badge-csharp">C#</span>
+								<span class="badge badge-unity">Unity3D</span>
+								<span class="badge badge-context">Game Dev</span>
+								<span class="badge badge-date">2016</span>
+							</div>
+						</a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="modal-nightmarehouse" tabindex="-1" role="dialog" aria-labelledby="nightmarehouse-ModalLabel" aria-hidden="true">
+						<div role="document" class="modal-dialog" style="max-width: 75%;">
+							<div class="modal-content">
+								<!--Modal Title-->
+								<div class="modal-header">
+									<h4 class="modal-title" id="nightmarehouse-ModalLabel">Sixth Sense</h4>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body" style="max-height: calc(100%); overflow-y: scroll">
+									<div class="row" style="margin-left: 20px; margin-right: 20px;">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<!--Description-->
+											<p class="project-description">
+												<h5>Description</h5>
+												A turn-based strategy with a spooky theme. Up to 4 players at a time.
+												Includes a system for managing players and other properties via scriptable objects.
+												A game made early in college years.
+											</p>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<!--Image Slider-->
+											<div id="carousel-nightmarehouse" class="carousel slide" data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carousel-sixthsense" data-slide-to="0" class="active"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="carousel-item active portfolio-carousel-item-bg">
+														<video muted autoplay class="d-block portfolio-carousel-item-image-wide" src="src/portfolio/Nightmare House/Videos/Nightmare House.mp4" alt="First slide" />
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carousel-nightmarehouse" role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#carousel-nightmarehouse" role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
 </section>
 
 <!--Contact section-->
